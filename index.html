@@ -2,55 +2,87 @@
 <html>
     <html lang="ar" dir="rtl"></html>
 <head>
-    <title>موقعي المميزة</title>
-    
+    <title>موقعي المميزة - External CSS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <H1>
     <a href="https://feraswaddah2.netlify.app/" target="_blank">الانتقال إلى المشروع الثاني</a>
     </H1>
     <h1>feras waddah</h1>
-    <h1 >hello</h1>
     <p >مرحباً بكم في موقعي</p>
+    <h2 class="page-title">جدول درجات الطلاب</h2>
 
-    <h1>مرحبن بكم في موقع مدرسة الرواد الاهلية</h1>
-<h2> أهلا بكم في مدرستنا المتميزه</h2>
-  <p>يسعدنا زيارتكم لموقعنا الاكتروني,نامل ان تجدوا كل مايهمكم</p>
-  <hr> 
+  <table class="data-table">
+    <thead>
+      <tr class="header-main">
+        <th colspan="7">درجات الفصل الدراسي</th>
+      </tr>
+      <tr class="header-sub">
+        <th rowspan="2">اسم الطالب</th>
+        <th rowspan="2">الصف</th>
+        <th colspan="2">الفصل الأول</th>
+        <th colspan="2">الفصل الثاني</th>
+        <th rowspan="2">المجموع</th>
+      </tr>
+      <tr class="header-sub">
+        <th>رياضيات</th>
+        <th>علوم</th>
+        <th>رياضيات</th>
+        <th>علوم</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="student-name">أحمد</td>
+        <td>الثالث</td>
+        <td>90</td>
+        <td>85</td>
+        <td>88</td>
+        <td>91</td>
+        <td class="total">354</td>
+      </tr>
+      <tr>
+        <td class="student-name">محمد</td>
+        <td>الثالث</td>
+        <td>80</td>
+        <td>79</td>
+        <td>85</td>
+        <td>87</td>
+        <td class="total">331</td>
+      </tr>
+      <tr>
+        <td class="student-name">علي</td>
+        <td>الثالث</td>
+        <td>95</td>
+        <td>92</td>
+        <td>94</td>
+        <td>96</td>
+        <td class="total">377</td>
+      </tr>
+      <tr>
+        <td class="student-name">سارة</td>
+        <td>الثالث</td>
+        <td>88</td>
+        <td>90</td>
+        <td>91</td>
+        <td>89</td>
+        <td class="total">358</td>
+      </tr>
+      <tr>
+        <td class="student-name">ريم</td>
+        <td>الثالث</td>
+        <td>93</td>
+        <td>94</td>
+        <td>95</td>
+        <td>97</td>
+        <td class="total">379</td>
+      </tr>
+    </tbody>
+  </table>
 
-   <h3>معلومات المدرسة:</h3>
-    <ul>
- <li><strong> اسم المدرسة:</strong>مدرسة الرواد الاهلية</li>
- <li><strong> موقع المدرسة:</strong>الحوبان </li>
-</ul>
-<hr>
-<h3>نبذة عن المدرسة</h3>
-<p>تعتبر مدرستنا منارة للتعليم, حيث تهدف الى توفير بيئة تعليمية محفوزة ومبتكرة مع التركيو على  الامتياز</p>
-<hr>
+   
 
-<h3>صور من المدرسة:</h3>
-<img src="22.jpg" height="100px" width="150px" >
-
-<body   dir="auto">
-  <table border="1" >
-  <h1> حارة احلامي </h1>
-  
-  <p>هذء هى السياره اللتي احلم با  ستلاكها في المستقبل ،لأنها تتميز بالقوهو والاداء و التقنيات الحديثة.</p> 
-
-  <a href="https://www.car.com"><img src=" 11.jpg " height="100px" width="150px"></a>
-
-   <tr><td>المواصف</td> <td>القيمه</td> <td> المواصفة</td><td>القيمه</td></tr> </h2>
-    <tr><td>الشركه المصنعة</td><td>toyota</td><td>المودال</td><td>2025</td></tr>
-  <tr><td>اسم السيار</td><td>camry</td><td>اللون</td><td></td></tr>
-  <tr><td>نوع الوقود</td><td>بنزين</td><td>ناقل الحركات</td><td>اوتو ماتك</td></tr>
-  <tr><td>عدد المقاعد</td><td>5</td><td>عدد الابواب</td><td>4</td></tr>
-  <tr><td>السرعةالقصوى</td><td>250كم/س</td><td>قوة المحرك</td><td>300حصان</td></tr>
-  <tr><td>سرعةالمحرك</td><td>CC3500</td><td>سنة الصناعة</td><td>2025</td></tr>
-  <tr><td>السعر</td><td>150,000ريال</td><td>اللون الدخلي</td><td>اسود</td></tr>
-  <tr><td>نوعالدفع</td><td>امامي</td><td>عددالاسطوانات</td><td>6</td></tr>
- <tr><td>استهلاك الوقود</td><td>15كم/لتر</td><td>بلد الصنع</td><td>اليابان</td></tr>
- 
-</table>
-</body>
+    
 </body>
 </html>
