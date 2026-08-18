@@ -1,0 +1,77 @@
+body {
+  background-color: #e5e9eb;
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* تنسيقات عامة للمربعات */
+.box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  position: relative;
+}
+
+.title {
+  color: #f3ca65; /* اللون الأصفر للنصوص */
+  margin: 0 0 10px 0;
+  font-size: 24px;
+}
+
+.description {
+  color: #ffffff;
+  margin: 0;
+  font-size: 16px;
+}
+
+/* المربع الأول (حواف مائلة معاكسة) */
+.box-1 {
+  background-color: #7b6978;
+  border: 2px solid #2d232e;
+  /* زاوية علوية يسار وسفلية يمين حادة، والأخريين منحنية */
+  border-radius: 50px 0px 50px 0px; 
+}
+
+.box-1 .description {
+  text-align: right;
+}
+
+/* المربع الثاني (إطار منقط مع زوايا منحنية) */
+.box-2 {
+  background-color: #4a6880;
+  border: 4px dotted #f3ca65; /* حدود منقطة باللون الأصفر */
+  border-radius: 0px 0px 25px 25px;
+  text-align: right;
+}
+
+.box-2 .title {
+  text-align: right;
+  margin-right: 80px;
+}
+
+/* المربع الثالث (Footer) */
+.box-3 {
+  background-color: #2b3945;
+  border: 2px solid #f3ca65;
+  border-radius: 15px;
+  text-align: center;
+  padding: 12px;
+}
+
+.footer-text {
+  color: #f3ca65;
+  margin: 0;
+  font-weight: bold;
+}
